@@ -1,4 +1,4 @@
-#Assignment (a)
+#Assignment 3(a)
 λ = 0.2
 n = 4
 
@@ -23,9 +23,9 @@ for row in eachrow(P)
 end
 
 
+#Assignment 3(b)
 adjtolam(P2,λ,n)
 
-#Assignment (b)
 function adjtolam(P, λ, n)
     for row in eachrow(P)
         for i in 1:size(row)
